@@ -1,1 +1,1 @@
-get '/': -> "ohai " + params.q
+get '/': -> "ohai #{params.q}"
