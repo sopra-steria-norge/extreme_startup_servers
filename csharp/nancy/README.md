@@ -13,6 +13,6 @@ Getting started
 * Run the program!
 
 
--- Håkon K. Olafsen 2011
+-- HÃ¥kon K. Olafsen 2011
 
   
