@@ -26,6 +26,12 @@
       <version>4.8.2</version>
       <scope>test</scope>
     </dependency>
+	<dependency>
+      <!-- the implementation of JAX-RS -->
+      <groupId>com.sun.jersey</groupId>
+      <artifactId>jersey-server</artifactId>
+      <version>1.10</version>
+    </dependency>    
     <dependency>
       <groupId>org.eclipse.jetty.aggregate</groupId>
       <artifactId>jetty-webapp</artifactId>
@@ -39,6 +45,7 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
+          <version>2.3.2</version>
           <target>1.6</target>
           <source>1.6</source>
         </configuration>
