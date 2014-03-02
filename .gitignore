@@ -6,3 +6,4 @@
 /java/*/.project
 /java/*/.settings
 /java/*/target
+/prolog/httpd.log
