@@ -1,4 +1,4 @@
-<?
+<?php
 require 'solver.php';
 $host = "127.0.0.1";
 $port = 9000;
@@ -25,4 +25,3 @@ while (true) {
   echo "Request: $input\n";
   echo "Answer: $answer\n";
 }
-?>
