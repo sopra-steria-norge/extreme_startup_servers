@@ -4,8 +4,8 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.foo.bar</groupId>
-	<artifactId>extreme-startup-tomcat</artifactId>
-	<name>extreme-startup</name>
+	<artifactId>startup-tomcat</artifactId>
+	<name>startup</name>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
