@@ -6,9 +6,13 @@ import play.api.mvc._
 object Application extends Controller {
   import Logger._
   def index = Action { implicit request =>
-    val q=request.queryString("q")(0)
-    debug(q)
-    Ok("name")
+    request.queryString.get("q").map(_.head) match {
+      case Some(query) =>
+        debug(query)
+        Ok("name")
+      case None =>
+        Ok("please enter a query (append ?q=something to the URL)")
+    }
   }
 
 }
