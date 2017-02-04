@@ -18,6 +18,7 @@ end
 server = ExtremeStartup.new
 
 configure do
+  set :bind, '0.0.0.0'
   set :port, 1337
 end
 
